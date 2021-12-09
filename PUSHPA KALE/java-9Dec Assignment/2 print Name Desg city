@@ -1,0 +1,8 @@
+//Que.2 Print Name,Design,city
+public class Main
+{
+	public static void main(String[] args) {
+
+		System.out.println("Name-Pushpa kale\n Design-Software Engg\n city-Banglore");
+	}
+}
