@@ -1,0 +1,84 @@
+// even no or odd no
+
+/*
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    
+	    Scanner sc = new Scanner (System.in);
+	    
+	    char op;
+
+	    int number1,number2;
+	    number1=sc.nextInt();
+	    number2=sc.nextInt();
+	    
+	    op=scan.next().charAt(0);
+
+	    if(op=='+'){
+	        System.out.println(number1+number2);
+	    }
+
+		else if(op=='-'){
+		    System.out.println(number1-number2);
+
+		}
+		else if(op=='*'){
+		    System.out.println(number1*number2);
+		}
+		
+		else if(op=='/'){
+		    	System.out.println(number1/number2);
+		}
+		
+		else{
+		    System.out.println("Invalid operator click");
+		}
+		
+	}
+}
+
+*/
+
+
+https://onlinegdb.com/UiKj6xLjC8
+
+import java.util.Scanner;
+
+class Main{
+    
+public static void main (String args[]){
+char ch;
+Scanner scan=new Scanner(System.in);
+
+int num1=scan.nextInt();
+int num2=scan.nextInt();
+
+ch=scan.next().charAt(0);
+
+if(ch=='+'){
+System.out.println(num1+num2);
+
+}
+
+else if(ch=='-'){
+System.out.println(num1-num2);
+
+}
+
+else if(ch=='*'){
+System.out.println(num1*num2);
+
+}
+else if(ch=='/'){
+System.out.println(num1 / num2);
+
+}
+
+else{
+System.out.print("not available" );
+}
+}
+}
