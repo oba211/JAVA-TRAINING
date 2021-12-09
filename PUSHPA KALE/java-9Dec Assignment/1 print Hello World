@@ -1,0 +1,10 @@
+//Que.1 print Hello World
+
+class simple{
+	
+public static void main(string args[]){
+	
+system.out.println("Hello World");
+
+}
+}
