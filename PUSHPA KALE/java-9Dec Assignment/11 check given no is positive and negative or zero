@@ -1,5 +1,5 @@
 // check given no is positive and negative or zero
-
+// code link- https://onlinegdb.com/dVAFBjthV
 import java.util.Scanner;
 
 public class Main
