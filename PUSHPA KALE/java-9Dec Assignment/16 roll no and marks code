@@ -1,0 +1,25 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    
+	   int rollNo[]={112,113,114,115};
+	   int marks[]={89,90,68,56};
+	   
+	   for(int i=0;i<rollNo.length;i++){
+	       
+	       if(marks[i]>70){
+	           System.out.println(marks[i]+" "+ "The grade is first class");
+	           System.out.println(rollNo[i]+ " "+ "The roll No");
+
+	       }
+	   }
+	}
+}
+
+
+
+output = 
+89 The grade is first class
+112 The roll No
+90 The grade is first class
+113 The roll No
