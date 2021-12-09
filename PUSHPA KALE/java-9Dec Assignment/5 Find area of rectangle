@@ -1,0 +1,29 @@
+//find Area of rectangle
+public class Main
+{
+	public static void main(String[] args) {
+	    int length=12,breadth=3,Area;
+	    Area=length*breadth;
+		System.out.println("The Area is" +Area);
+		
+	}
+}
+
+//find Area of rectangle using user input
+
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    int length,breadth,Area;
+	    
+	     Scanner sc = new Scanner (System.in);
+	    
+	     length=sc.nextInt();
+         breadth=sc.nextInt();
+
+	     Area=length*breadth;
+		System.out.println("The Area is" +Area);
+		
+	}
+}
