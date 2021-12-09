@@ -1,0 +1,30 @@
+
+import java.util.Scanner;
+
+class Room
+{
+int x;
+int y;
+
+void getdata(int a, int b)
+{
+x=a;
+y=b;
+}
+}
+
+//use always here name
+class Main
+{
+public static void main(String[] args)
+{
+    
+int z;
+
+Room r1=new Room();
+r1.getdata(20,50);
+
+z=r1.x+r1.y;
+System.out.println("Sum is:"+z);
+}
+}
