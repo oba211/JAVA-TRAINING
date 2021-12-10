@@ -1,0 +1,48 @@
+public class Emp {
+int id;
+String name;
+int salary;
+void display()
+{
+    System.out.println(id);
+    System.out.println(name);
+    System.out.println(salary);
+}
+int annualSalary()
+{
+    return 12*salary;
+}
+    public static void main(String[] args) {
+       Emp e1=new Emp();
+       Emp e2=new Emp();
+       Emp e3=new Emp();
+      
+       e1.id=2001;
+       e1.name="Jack";
+       e1.salary=40000;
+      
+       e2.id=2002;
+       e2.name="Jony";
+       e2.salary=42000;
+      
+       e3.id=2003;
+       e3.name="Joji";
+       e3.salary=34000;
+      
+       System.out.println(e1.name);
+      
+       System.out.println(e2.name);
+       System.out.println(e3.name);
+      
+ System.out.println("Annual salary for emp 1 is:" + e1.annualSalary());
+      
+    }
+   
+}
+
+
+output
+Jack
+Jony
+Joji
+Annual salary for emp 1 is:480000
