@@ -1,0 +1,20 @@
+import java.io.*;
+
+class AreaOfRectangle
+{
+void Area(int len, int breadth)
+{
+System.out.println("Area of the rectangle " + len * breadth);
+}
+}
+
+class Main {
+
+ public static void main(String[] args)
+{
+    
+AreaOfRectangle obj = new AreaOfRectangle();
+obj.Area(5, 6);
+
+}
+}
