@@ -1,0 +1,43 @@
+class Ee
+{
+    String name;
+    String breed;
+    int cost;
+    public Ee(String name,String breed,int cost)
+    {
+        this.name=name;
+         this.breed=breed;
+          this.cost=cost;
+    }
+    public String getName()
+    {
+        return name;
+    }
+    public String getBreed()
+    {
+        return breed;
+    }
+    public int getCost()
+    {
+        return cost;
+    }
+    public Ee(String name,int cost)
+    {
+        this.name=name;
+        this.cost=cost;
+    }
+}
+public class Dog {
+ 
+    public static void main(String[] args) {
+      Ee e=new Ee("lobo","pug",999);
+      System.out.println(e.getName());
+      System.out.println(e.getBreed());
+      System.out.println(e.getCost());
+      
+      Ee e1=new Ee("Rockey", 2222);
+       System.out.println(e1.getName());
+      System.out.println(e1.getCost());
+    }
+    
+}
